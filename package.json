@@ -1,11 +1,8 @@
-{  
-  "name": "common",
+{
+  "name": "microservices-common",
   "version": "1.0.0",
-  "description": "Common setup for creating services",
-  "directories": {
-    "test": "test"
-  },
-  "main": "./dist/index.js",
+  "description": "A common utility for setting up microservices",
+  "main": "dist/index.js",
   "files": [
     "dist/**/*"
   ],
@@ -15,9 +12,16 @@
     "start": "node dist/index.js",
     "test": "nothing yet"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KAthousand/microservices-common.git"
+  },
+  "author": "kathousand",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KAthousand/microservices-common/issues"
+  },
+  "homepage": "https://github.com/KAthousand/microservices-common#readme",
   "devDependencies": {
     "@types/cookie-parser": "^1.4.2",
     "@types/cors": "^2.8.12",
