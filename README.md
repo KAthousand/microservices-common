@@ -1,0 +1,1 @@
+A common set up for creating new services.
