@@ -15,3 +15,4 @@ __exportStar(require("./config/env"), exports);
 __exportStar(require("./config/setupApp"), exports);
 // Utils
 __exportStar(require("./utils/auth"), exports);
+__exportStar(require("./utils/validation"), exports);
