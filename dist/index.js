@@ -13,3 +13,5 @@ Object.defineProperty(exports, "__esModule", { value: true });
 // Config
 __exportStar(require("./config/env"), exports);
 __exportStar(require("./config/setupApp"), exports);
+// Utils
+__exportStar(require("./utils/auth"), exports);
