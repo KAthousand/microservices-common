@@ -1,6 +1,6 @@
 {
   "name": "microservices-common",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A common utility for setting up microservices",
   "main": "dist/index.js",
   "files": [
