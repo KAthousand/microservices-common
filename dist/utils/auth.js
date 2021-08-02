@@ -9,6 +9,17 @@ const jsonwebtoken_1 = __importDefault(require("jsonwebtoken"));
 const bcrypt_1 = __importDefault(require("bcrypt"));
 //import env config
 const env_1 = require("../config/env");
+//initialize the environment
+const initializeEnvironment = () => {
+    try {
+        env_1.env.init();
+    }
+    catch (error) {
+        // eslint-disable-next-line no-console
+        console.error('An error occured during env initialization:', error);
+    }
+};
+initializeEnvironment();
 //load env to get access keys and refresh keys
 const accessTokenKey = env_1.env.get('ACCESS_TOKEN_KEY');
 //hash user's passwords (when creating user)
